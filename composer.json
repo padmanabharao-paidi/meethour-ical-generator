@@ -34,12 +34,14 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Spatie\\IcalendarGenerator\\" : "src"
+            "Spatie\\IcalendarGenerator\\" : "icalendar-generator/src",
+			"Spatie\\Enum\\" : "icalendar-generator/src"
         }
     },
     "autoload-dev" : {
         "psr-4" : {
-            "Spatie\\IcalendarGenerator\\Tests\\" : "tests"
+            "Spatie\\IcalendarGenerator\\Tests\\" : "enum/tests"
+			
         }
     },
     "scripts" : {
