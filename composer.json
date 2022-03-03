@@ -34,8 +34,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Spatie\\IcalendarGenerator\\" : "icalendar-generator/src",
-			"Spatie\\Enum\\" : "enum/src"
+            "Spatie\\IcalendarGenerator\\" : "icalendar-generator/src"
         }
     },
     "autoload-dev" : {
