@@ -1,5 +1,5 @@
 {
-    "name" : "spatie/icalendar-generator",
+    "name" : "meethour/meethour-ical-generator",
     "description" : "Build calendars in the iCalendar format",
     "keywords" : [
         "spatie",
