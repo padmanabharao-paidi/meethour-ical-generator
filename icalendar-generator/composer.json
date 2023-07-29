@@ -1,5 +1,5 @@
 {
-    "name" : "meethour/meethour-ical-generator",
+    "name" : "spatie/icalendar-generator",
     "description" : "Build calendars in the iCalendar format",
     "keywords" : [
         "spatie",
@@ -8,13 +8,14 @@
         "ical",
         "icalendar"
     ],
-    "homepage" : "https://github.com/v-empower/meethour-ical-generator",
+    "homepage" : "https://github.com/spatie/icalendar-generator",
     "license" : "MIT",
     "authors" : [
         {
-            "name" : "Meet Hour LLC",
-            "email" : "hello@meethour.io",
-            "homepage" : "https://meethour.io"
+            "name" : "Ruben Van Assche",
+            "email" : "ruben@spatie.be",
+            "homepage" : "https://spatie.be",
+            "role" : "Developer"
         }
     ],
 
@@ -33,13 +34,12 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Spatie\\IcalendarGenerator\\" : "icalendar-generator/src"
+            "Spatie\\IcalendarGenerator\\" : "src"
         }
     },
     "autoload-dev" : {
         "psr-4" : {
-            "Spatie\\IcalendarGenerator\\Tests\\" : "enum/tests"
-			
+            "Spatie\\IcalendarGenerator\\Tests\\" : "tests"
         }
     },
     "scripts" : {

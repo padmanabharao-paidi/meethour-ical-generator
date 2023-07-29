@@ -182,6 +182,16 @@ abstract class Enum implements JsonSerializable
 
     /**
      * @param string $name
+     *
+     * @return bool
+     */
+    public function __isset(string $name): bool
+    {
+        return $name === 'label' || $name === 'value';
+    }
+
+    /**
+     * @param string $name
      * @param array $arguments
      *
      * @return static
@@ -313,9 +323,7 @@ abstract class Enum implements JsonSerializable
         return count($array) > count(array_unique($array));
     }
 
-    /**
-     * @return int|string
-     */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->value;
